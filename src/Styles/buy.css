@@ -1,0 +1,42 @@
+.product-buy-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    max-height: 500vh;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .product-buy-form label {
+    margin-bottom: 5px;
+  }
+  
+  .product-buy-form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .product-buy-form button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 600px ) {
+    .product-buy-form {
+      max-width: 100%;
+     
+    }
+  }
+  @media screen and (max-height: 800px ) {
+    .product-buy-form {
+      max-height: 100%;
+     
+    }
+  }

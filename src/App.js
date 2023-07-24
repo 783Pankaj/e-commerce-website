@@ -8,6 +8,7 @@ import Search from './pageComponents/Search';
 import Error from './pageComponents/Error';
 import Login from './pageComponents/Login';
 import Footer from './components/Footer';
+import Buy from './pageComponents/Buy';
 function App() {
   return (
     <div>
@@ -19,6 +20,7 @@ function App() {
             <Route path="/contact" element={<Contact/>}></Route>
             <Route path="/item" element={<Item/>}></Route>
             <Route path="/search" element={<Search/>}></Route>
+            <Route path='/buy' element={<Buy />}></Route>
             <Route path="*" element={<Error/>}></Route>
           </Routes>
          </BrowserRouter>
