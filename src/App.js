@@ -9,10 +9,11 @@ import Error from './pageComponents/Error';
 import Login from './pageComponents/Login';
 import Footer from './components/Footer';
 import Buy from './pageComponents/Buy';
+import MuiPagenation from './pageComponents/MuiPagenation';
 function App() {
   return (
     <div>
-      <BrowserRouter>
+      {/* <BrowserRouter>
           <Routes>
             <Route path="/" element={<Home/>}></Route>
             <Route path='login' element={<Login/>}></Route>
@@ -22,11 +23,13 @@ function App() {
             <Route path="/search" element={<Search/>}></Route>
             <Route path='/buy' element={<Buy />}></Route>
             <Route path="*" element={<Error/>}></Route>
+           
           </Routes>
          </BrowserRouter>
         <div>
           <Footer />
-        </div>
+        </div> */}
+        <MuiPagenation />
     </div>
   );
 }

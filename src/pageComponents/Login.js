@@ -10,7 +10,6 @@ import * as yup from 'yup';
 import '../Styles/login.css';
 const Login=()=>{
     const { Formik } = formik;
-
     const schema = yup.object().shape({
       firstName: yup.string().required(),
       lastName: yup.string().required(),
@@ -36,7 +35,7 @@ const Login=()=>{
         city: '',
         state: '',
         zip: '',
-        terms: false,
+        terms: false, 
       }}
     >
       {({ handleSubmit, handleChange, values, touched, errors }) => (
