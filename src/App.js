@@ -13,7 +13,7 @@ import MuiPagenation from './pageComponents/MuiPagenation';
 function App() {
   return (
     <div>
-      {/* <BrowserRouter>
+      <BrowserRouter>
           <Routes>
             <Route path="/" element={<Home/>}></Route>
             <Route path='login' element={<Login/>}></Route>
@@ -28,7 +28,7 @@ function App() {
          </BrowserRouter>
         <div>
           <Footer />
-        </div> */}
+        </div>
         <MuiPagenation />
     </div>
   );
